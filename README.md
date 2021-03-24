@@ -1,3 +1,14 @@
+# JexBoss
+
+Modified by MagicPiperSec Team re-licensed under AGPLv3.
+
+Added: (WIP)
+
+- CVE-2017-7504 Deserialization
+- CVE-2017-12149 Deserialization
+
+## Original Readme
+
 JexBoss - JBoss (and others Java Deserialization Vulnerabilities) verify and EXploitation Tool
 ==============================================================================================
 
@@ -276,5 +287,5 @@ Questions, problems, suggestions and etc:
 ----
 
 * joaomatosf@gmail.com
-
+* GitHub Issues
 

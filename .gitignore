@@ -58,3 +58,5 @@ target/
 
 # I/O files
 *.csv
+.venv/
+venv/

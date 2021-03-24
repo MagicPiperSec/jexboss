@@ -31,7 +31,11 @@ args = args.parse_args()
 
 paths = {"jmx-console": "/jmx-console/HtmlAdaptor?action=inspectMBean&name=jboss.system:type=ServerInfo",
          "web-console" 		: "/web-console/ServerInfo.jsp",
-         "JMXInvokerServlet": "/invoker/JMXInvokerServlet"}
+         "JMXInvokerServlet": "/invoker/JMXInvokerServlet",
+         "EJBInvokerServlet": "/invoker/EJBInvokerServlet",
+         "ASInvokerReadOnly": "/invoker/readonly",
+         "HTTPServerILServlet": "/jbossmq-httpil/HTTPServerILServlet"
+        }
 
 results = []
 
